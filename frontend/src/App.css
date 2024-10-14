@@ -1,0 +1,290 @@
+@import url('https://fonts.googleapis.com/css2?family=New+Amsterdam&display=swap');
+
+.main{
+    background-color: #A1D6B2;
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-sizing: border-box;
+    padding: 20px;
+}
+
+.navbar{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    background-color: #CEDF9F;
+    border-radius: 10px;
+    padding: 30px;
+    height: 50px;
+}
+
+.navbar img{
+    height: 50px;
+    width: 50px;
+    border-radius: 10px;
+}
+
+.navbar h1{
+    font-family: "New Amsterdam", sans-serif;
+    font-size: 45px;
+    cursor: pointer;
+}
+
+.navbar ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+}
+
+.navbar ul li a{
+    font-family: "New Amsterdam", sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #F1F3C2;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.items{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 100px;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 400px;
+    height: 600px;
+    background-color: #F1F3C2;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    color: black;
+    cursor: pointer;
+}
+
+.card img{
+    width: 300px;
+    height: 300px;
+    padding-top: 30px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.card button{
+    width: 400px;
+    height: 60px;
+    border: none;
+    background-color: #E8B86D;
+    border-radius: 5px;
+    justify-content: end;
+    cursor: pointer;
+}
+
+.product{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 50px;
+    background-color: #CEDF9F;
+}
+
+.product .image img{
+    width: 300px;
+    height: 300px;
+}
+
+.details {
+    width: 500px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    align-items: center;
+    justify-content: center;
+}
+
+.navbar-cart a{
+    font-family: "New Amsterdam", sans-serif;
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    border-radius: 5px;
+    padding-right: 20px;
+    padding-left: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    background-color: #F1F3C2;
+    margin-left: 100px;
+}
+
+.navbar-cart{
+    position: relative;
+}
+
+.cart-count{
+    position: absolute;
+    bottom: 20px;
+    left: 160px;
+    background-color: #E8B86D;
+    border-radius: 10px;
+    font-size: 20px;
+    padding: 10px;
+}
+
+.header{
+    background-color: #F1F3C2;
+    align-items: center;
+    text-align: center;
+}
+
+.cart{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    background-color: #CEDF9F;
+}
+
+.cart-items{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    border-radius: 10px;
+}
+
+.cart-item{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 1000px;
+    background-color: #E8B86D;
+    border-radius: 15px;
+}
+
+.cart-item button{
+    background-color: #CEDF9F;
+    padding: 20px;
+    font-size: 15px;
+    border: none;
+    border-radius: 10px;
+}
+
+.cart ul{
+    list-style: none;
+}
+
+.cart img{
+    width: auto;
+    height: 100px;
+}
+
+.actions{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: row;
+    gap: 50px;
+}
+
+.buttons button{
+    background-color: #E8B86D;
+    font-size: 20px;
+    padding: 20px;
+    border: none;
+    border-radius: 10px;
+}
+
+.checkout-form {
+    width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    background-color: #f9f9f9;
+}
+
+.checkout-form h2, .checkout-form h3 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.form-group {
+    margin-bottom: 15px;
+}
+
+.form-group label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.form-group input, .form-group select {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-row .form-group {
+    width: 48%;
+}
+
+.checkout-btn {
+    width: 100%;
+    padding: 10px;
+    background-color: #28a745;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 16px;
+}
+
+.checkout-btn:hover {
+    background-color: #218838;
+}
+
+.checkout-background {
+    background-color: #CEDF9F;
+}
+

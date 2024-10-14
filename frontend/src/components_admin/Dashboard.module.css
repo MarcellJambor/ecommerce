@@ -1,0 +1,67 @@
+.dashboard {
+    height: fit-content;
+    border-radius: 10px;
+    margin: auto;
+    margin-top: 100px;
+    width: 900px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 20px;
+    background-color: #3e4142;
+}
+
+.list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+  }
+  
+  .navbar button{
+    border-radius: 5px;
+    width: 200px;
+    height: 50px;
+  }
+
+  .dashboard h1{
+    color: white;
+  }
+
+  .form{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+  }
+
+  .form input{
+    width: 200px;
+    height: 25px;
+    border-radius: 5px;
+  }
+
+  .form button{
+    width: 250px;
+    height: 50px;
+    border-radius: 10px;
+  }
+
+  .form p{
+    color: white;
+    font-weight: bold;
+    font-size: 25px;
+  }
+
+  .card{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 20px;
+    color: white;
+  }
